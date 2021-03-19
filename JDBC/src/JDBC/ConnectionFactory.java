@@ -5,7 +5,6 @@
  */
 package JDBC;
 
-import ConectarBanco.ConfigBanco;
 import java.sql.Connection;
 import java.sql.DriverManager;
 import java.sql.SQLException;
@@ -18,11 +17,11 @@ public class ConnectionFactory {
     
     public Connection conectar() {
         
-        String [] info = ConfigBanco.infoBanco();
+        //String [] info = ConfigBanco.infoBanco();
         
         String DRIVE = "com.mysql.jdbc.Driver";
        //String URL   = "jdbc:mysql://" + info[0] + ":" + info[1]  + "/" + info[2];
-        String URL   = "jbdc:mysql://DESKTOP-4N9FE0N:3306";
+        String URL   = "jbdc:mysql://localhost:3306/";
         String USER  = "root";
         String PASS  = "larissa";
         
