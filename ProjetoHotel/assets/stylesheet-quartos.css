@@ -1,0 +1,21 @@
+.img-inicio{
+	height: 30vh;
+}
+
+.img-quartos{
+	width: 33%;
+	padding-bottom: 10px;
+}
+
+.listas{
+	display: flex;
+	justify-content: space-between;
+	flex-flow: row wrap;
+}
+
+.listas li{
+	width: 25%;
+	text-align: left;
+	margin-top: 20px ;
+
+}
